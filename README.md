@@ -1,6 +1,7 @@
 RAG-Based Document Question Answering System using Langchain
 
 Overview
+
 This project implements a Retrieval-Augmented Generation (RAG) pipeline that enables intelligent, context-aware question answering over a collection of PDF documents. It combines local knowledge retrieval with LLM-based reasoning to deliver precise, grounded answers instead of generic or hallucinated responses.
 
 The system uses LangChain as its orchestration layer, FAISS and ChromaDB as vector stores, Sentence Transformers for embeddings, and Llama (via Groq API) for generation — providing a complete end-to-end RAG workflow.
